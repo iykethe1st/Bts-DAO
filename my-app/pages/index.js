@@ -376,8 +376,8 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-      <img alt="Twitter Logo" className={styles.twitter} src="/cryptodevs/twitter-logo.svg" />
-        <a href="https://twitter.com/iykethe1st" target="_blank">Made with &#10084; by  @iykethe1st</a>
+      <img className={styles.twitter} src="/cryptodevs/twitter-logo.svg" />
+        <a href="https://twitter.com/iykethe1st" target="_blank" rel="noreferrer">Made with &#10084; by  @iykethe1st</a>
       </footer>
     </div>
   );  
